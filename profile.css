@@ -1,0 +1,163 @@
+body{
+    background-color: aliceblue;
+}
+.cover{
+    display: flex;
+    align-items: center;
+
+}
+.cover-photo{
+    width:100%
+}
+.right{
+    flex-basis: 10%;
+}
+.middle{
+    flex-basis:70%;
+}
+.profile-show{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+.profile-side{
+    width: 30%;
+    border-radius: 50%;
+}
+.side{
+    flex-basis: 20%;
+}
+.friends-show{
+    display:flex;
+    align-items: center;
+    margin-top: 5px;
+    
+   
+}
+.friends-show ul li img{
+    width:3%;
+    border-radius: 50%;
+    
+}
+.friends-show ul li{
+    display:inline;
+    list-style: none;
+   
+}
+.profile-name{
+    display: flex;
+
+}
+.pro-details{
+    margin-left: -70px;
+    flex-basis:60%;
+}
+.profile-end img{
+
+    width: 20%;
+    margin-right:5px
+    
+}
+.profile-end a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.message{
+    display: flex;
+    background-color: rgb(95, 95, 187);
+    color:white;
+    padding:2px;
+    border-radius:5px;
+}
+.profile-end{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.add-friend{
+    background-color: rgb(149, 145, 145);
+    color:white;
+    padding:4px;
+    border-radius:5px;
+    margin-right: 4px;
+}
+.pro-details small{
+    margin-top:5px
+}
+.profile-post{
+    display: flex;
+}
+.my-show{
+    flex-basis: 30%;
+}
+.aud-show{
+    flex-basis:69%
+}
+.intro{
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(176, 176, 176);
+}
+.intro p{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  
+}
+.profile-post ul{
+    margin-top: 20px;
+}
+.post-0,.post-1,.post-2,.basic,.photos,.friends{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top:15px;
+    padding:10px;
+}
+.photos{
+    margin-top:20px;
+}
+.photo-grid {
+    display:flex;
+    flex-wrap: wrap;
+    align-items:space-between;
+   
+  }
+  .photos h6{
+
+    margin-bottom: 15px;
+  }
+  .photo {
+    text-align: center;
+    width:30%;
+    margin-right:5px;
+    margin-bottom:5px;
+  }
+  
+  .friends .photo-grid {
+    margin-top: 10px;
+
+  }
+  .photo-grid ul li{
+    list-style: none;
+  }
+  .basic,.photos,.friends{
+    margin-right: 10px;
+    overflow: hidden;
+  }
+  .friends-head{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .right a{
+    text-decoration: none;
+  }
+  .y{
+    color:rgb(116, 116, 197);
+  }
+  .easy{
+    font-weight: bold;
+  }
